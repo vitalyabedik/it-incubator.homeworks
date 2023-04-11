@@ -23,7 +23,6 @@
     line-height: 20px;
     color: #000000;
     padding-left: 12px;
-
     min-width: 370px;
     height: 35px;
     border: 1px solid #D1D1D1;
@@ -31,7 +30,9 @@
     margin-right: 12px;
 }
 
-.input:focus {
+input:focus,
+input:active {
+    outline: none;
     border: 1px solid #D1D1D1;
 }
 
@@ -52,8 +53,13 @@
     color: #FFFFFF;
     background: #0066CC;
     border-radius: 3px;
-
+    border: none;
     padding: 5px 24px;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.9;
 }
 
 .button:focus {
