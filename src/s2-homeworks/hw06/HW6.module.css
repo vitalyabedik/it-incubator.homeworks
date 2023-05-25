@@ -9,4 +9,5 @@
 
 .editableSpanContainer {
     width: 300px;
+    min-height: 40px;
 }
