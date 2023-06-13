@@ -18,6 +18,16 @@ html {
     color: var(--color);
 }
 
+.text {
+    margin-bottom: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
 .select {
 
 }
+
